@@ -4,3 +4,37 @@ html, body {
     height: 100vh;
 }
 
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: grey;
+    height: 10%;
+}
+
+.problem {
+    display: grid;
+    grid-template-columns: 80px 80px 1fr;
+
+    margin: 10px;
+    border: 1px solid red;
+    justify-self: center;
+    width: min(800px,70%);
+}
+
+
+
+.content{
+    min-height: 80%;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px;
+}
+
+.footer{
+    background-color: grey;
+    height: 10%;
+}
